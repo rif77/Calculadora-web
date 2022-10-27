@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
     
+        <div class="calculadora row justify-content-md-center">
+            <div class="calculadora__pantalla">0</div>
+            
+            <div class="teclasCalculadora row row-cols-4">
+                <button class="key--operador" data-action="sumar">+</button>
+                <button class="key--operador" data-action="restar">-</button>
+                <button class="key--operador" data-action="multiplicar">x</button>
+                <button class="key--operador" data-action="dividir">/</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>0</button>
+                <button data-action="decimal">.</button>
+                <button data-action="borrar">C</button>
+                <button class="tecla--equal" data-action="calcular">=</button>
+              </div>
+          </div>
+        
+    </div>
+        
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
